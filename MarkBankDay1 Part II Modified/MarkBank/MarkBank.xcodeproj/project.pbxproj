@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		101A769228C8CF9C000A37CB /* ResourcesList.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 101A769128C8CF9C000A37CB /* ResourcesList.rtf */; };
+		1046493428CE251700BE424A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046493328CE251700BE424A /* ContentView.swift */; };
+		106B4C2F28D05A2C003E30EC /* OnboardCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106B4C2E28D05A2C003E30EC /* OnboardCard.swift */; };
+		106B4C3128D05B48003E30EC /* OnboardSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106B4C3028D05B48003E30EC /* OnboardSet.swift */; };
+		106B4C3328D05D5B003E30EC /* OBCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106B4C3228D05D5B003E30EC /* OBCardView.swift */; };
+		106B4C3528D0662F003E30EC /* OnBoardingScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106B4C3428D0662F003E30EC /* OnBoardingScreens.swift */; };
+		10A756DF28C87A1D006AAB5F /* MarkBankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A756DE28C87A1D006AAB5F /* MarkBankApp.swift */; };
+		10A756E328C87A1F006AAB5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A756E228C87A1F006AAB5F /* Assets.xcassets */; };
+		10A756E628C87A1F006AAB5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A756E528C87A1F006AAB5F /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		101A769128C8CF9C000A37CB /* ResourcesList.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ResourcesList.rtf; sourceTree = "<group>"; };
+		1046493328CE251700BE424A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		106B4C2E28D05A2C003E30EC /* OnboardCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardCard.swift; sourceTree = "<group>"; };
+		106B4C3028D05B48003E30EC /* OnboardSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardSet.swift; sourceTree = "<group>"; };
+		106B4C3228D05D5B003E30EC /* OBCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBCardView.swift; sourceTree = "<group>"; };
+		106B4C3428D0662F003E30EC /* OnBoardingScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreens.swift; sourceTree = "<group>"; };
+		10A756DB28C87A1D006AAB5F /* MarkBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A756DE28C87A1D006AAB5F /* MarkBankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkBankApp.swift; sourceTree = "<group>"; };
+		10A756E228C87A1F006AAB5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10A756E528C87A1F006AAB5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10A756D828C87A1D006AAB5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A756D228C87A1D006AAB5F = {
+			isa = PBXGroup;
+			children = (
+				10A756DD28C87A1D006AAB5F /* MarkBank */,
+				10A756DC28C87A1D006AAB5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10A756DC28C87A1D006AAB5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10A756DB28C87A1D006AAB5F /* MarkBank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10A756DD28C87A1D006AAB5F /* MarkBank */ = {
+			isa = PBXGroup;
+			children = (
+				10A756DE28C87A1D006AAB5F /* MarkBankApp.swift */,
+				10A756E228C87A1F006AAB5F /* Assets.xcassets */,
+				10A756E428C87A1F006AAB5F /* Preview Content */,
+				101A769128C8CF9C000A37CB /* ResourcesList.rtf */,
+				1046493328CE251700BE424A /* ContentView.swift */,
+				106B4C2E28D05A2C003E30EC /* OnboardCard.swift */,
+				106B4C3028D05B48003E30EC /* OnboardSet.swift */,
+				106B4C3228D05D5B003E30EC /* OBCardView.swift */,
+				106B4C3428D0662F003E30EC /* OnBoardingScreens.swift */,
+			);
+			path = MarkBank;
+			sourceTree = "<group>";
+		};
+		10A756E428C87A1F006AAB5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				10A756E528C87A1F006AAB5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10A756DA28C87A1D006AAB5F /* MarkBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A756E928C87A1F006AAB5F /* Build configuration list for PBXNativeTarget "MarkBank" */;
+			buildPhases = (
+				10A756D728C87A1D006AAB5F /* Sources */,
+				10A756D828C87A1D006AAB5F /* Frameworks */,
+				10A756D928C87A1D006AAB5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkBank;
+			productName = MarkBank;
+			productReference = 10A756DB28C87A1D006AAB5F /* MarkBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10A756D328C87A1D006AAB5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					10A756DA28C87A1D006AAB5F = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 10A756D628C87A1D006AAB5F /* Build configuration list for PBXProject "MarkBank" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10A756D228C87A1D006AAB5F;
+			productRefGroup = 10A756DC28C87A1D006AAB5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10A756DA28C87A1D006AAB5F /* MarkBank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10A756D928C87A1D006AAB5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A756E628C87A1F006AAB5F /* Preview Assets.xcassets in Resources */,
+				101A769228C8CF9C000A37CB /* ResourcesList.rtf in Resources */,
+				10A756E328C87A1F006AAB5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10A756D728C87A1D006AAB5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1046493428CE251700BE424A /* ContentView.swift in Sources */,
+				106B4C3328D05D5B003E30EC /* OBCardView.swift in Sources */,
+				10A756DF28C87A1D006AAB5F /* MarkBankApp.swift in Sources */,
+				106B4C2F28D05A2C003E30EC /* OnboardCard.swift in Sources */,
+				106B4C3528D0662F003E30EC /* OnBoardingScreens.swift in Sources */,
+				106B4C3128D05B48003E30EC /* OnboardSet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10A756E728C87A1F006AAB5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10A756E828C87A1F006AAB5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10A756EA28C87A1F006AAB5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarkBank/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Onboarding.MarkBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10A756EB28C87A1F006AAB5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarkBank/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Onboarding.MarkBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A756D628C87A1D006AAB5F /* Build configuration list for PBXProject "MarkBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A756E728C87A1F006AAB5F /* Debug */,
+				10A756E828C87A1F006AAB5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A756E928C87A1F006AAB5F /* Build configuration list for PBXNativeTarget "MarkBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A756EA28C87A1F006AAB5F /* Debug */,
+				10A756EB28C87A1F006AAB5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10A756D328C87A1D006AAB5F /* Project object */;
+}
