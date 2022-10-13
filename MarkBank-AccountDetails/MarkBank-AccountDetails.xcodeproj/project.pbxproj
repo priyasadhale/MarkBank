@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1003750C28EC1E6B0058334F /* MarkBank_AccountDetailsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1003750B28EC1E6B0058334F /* MarkBank_AccountDetailsApp.swift */; };
+		1003750E28EC1E6B0058334F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1003750D28EC1E6B0058334F /* ContentView.swift */; };
+		1003751028EC1E6B0058334F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1003750F28EC1E6B0058334F /* Assets.xcassets */; };
+		1003751328EC1E6B0058334F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1003751228EC1E6B0058334F /* Preview Assets.xcassets */; };
+		1003751C28EC1F750058334F /* AccountModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1003751A28EC1F750058334F /* AccountModel.xcdatamodeld */; };
+		1003751E28EC360B0058334F /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1003751D28EC360B0058334F /* DataController.swift */; };
+		1003752228EC68B80058334F /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1003752128EC68B80058334F /* AddContactView.swift */; };
+		107858FC28ECA3A50083C657 /* EditContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107858FB28ECA3A50083C657 /* EditContactView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1003750828EC1E6B0058334F /* MarkBank-AccountDetails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MarkBank-AccountDetails.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1003750B28EC1E6B0058334F /* MarkBank_AccountDetailsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkBank_AccountDetailsApp.swift; sourceTree = "<group>"; };
+		1003750D28EC1E6B0058334F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1003750F28EC1E6B0058334F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1003751228EC1E6B0058334F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1003751B28EC1F750058334F /* AccountModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AccountModel.xcdatamodel; sourceTree = "<group>"; };
+		1003751D28EC360B0058334F /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		1003752128EC68B80058334F /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
+		107858FB28ECA3A50083C657 /* EditContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1003750528EC1E6B0058334F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100374FF28EC1E6B0058334F = {
+			isa = PBXGroup;
+			children = (
+				1003750A28EC1E6B0058334F /* MarkBank-AccountDetails */,
+				1003750928EC1E6B0058334F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1003750928EC1E6B0058334F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1003750828EC1E6B0058334F /* MarkBank-AccountDetails.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1003750A28EC1E6B0058334F /* MarkBank-AccountDetails */ = {
+			isa = PBXGroup;
+			children = (
+				1003752028EC686B0058334F /* Helpers */,
+				1003751F28EC543A0058334F /* Views */,
+				1003750B28EC1E6B0058334F /* MarkBank_AccountDetailsApp.swift */,
+				1003751928EC1F3D0058334F /* DataModel */,
+				1003750F28EC1E6B0058334F /* Assets.xcassets */,
+				1003751128EC1E6B0058334F /* Preview Content */,
+			);
+			path = "MarkBank-AccountDetails";
+			sourceTree = "<group>";
+		};
+		1003751128EC1E6B0058334F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1003751228EC1E6B0058334F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1003751928EC1F3D0058334F /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				1003751A28EC1F750058334F /* AccountModel.xcdatamodeld */,
+				1003751D28EC360B0058334F /* DataController.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		1003751F28EC543A0058334F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1003750D28EC1E6B0058334F /* ContentView.swift */,
+				1003752128EC68B80058334F /* AddContactView.swift */,
+				107858FB28ECA3A50083C657 /* EditContactView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1003752028EC686B0058334F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1003750728EC1E6B0058334F /* MarkBank-AccountDetails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1003751628EC1E6B0058334F /* Build configuration list for PBXNativeTarget "MarkBank-AccountDetails" */;
+			buildPhases = (
+				1003750428EC1E6B0058334F /* Sources */,
+				1003750528EC1E6B0058334F /* Frameworks */,
+				1003750628EC1E6B0058334F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MarkBank-AccountDetails";
+			productName = "MarkBank-AccountDetails";
+			productReference = 1003750828EC1E6B0058334F /* MarkBank-AccountDetails.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1003750028EC1E6B0058334F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1003750728EC1E6B0058334F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1003750328EC1E6B0058334F /* Build configuration list for PBXProject "MarkBank-AccountDetails" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 100374FF28EC1E6B0058334F;
+			productRefGroup = 1003750928EC1E6B0058334F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1003750728EC1E6B0058334F /* MarkBank-AccountDetails */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1003750628EC1E6B0058334F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1003751328EC1E6B0058334F /* Preview Assets.xcassets in Resources */,
+				1003751028EC1E6B0058334F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1003750428EC1E6B0058334F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1003751C28EC1F750058334F /* AccountModel.xcdatamodeld in Sources */,
+				1003752228EC68B80058334F /* AddContactView.swift in Sources */,
+				1003751E28EC360B0058334F /* DataController.swift in Sources */,
+				1003750E28EC1E6B0058334F /* ContentView.swift in Sources */,
+				1003750C28EC1E6B0058334F /* MarkBank_AccountDetailsApp.swift in Sources */,
+				107858FC28ECA3A50083C657 /* EditContactView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1003751428EC1E6B0058334F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1003751528EC1E6B0058334F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1003751728EC1E6B0058334F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarkBank-AccountDetails/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.AccountDetails.MarkBank-AccountDetails";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1003751828EC1E6B0058334F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarkBank-AccountDetails/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.AccountDetails.MarkBank-AccountDetails";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1003750328EC1E6B0058334F /* Build configuration list for PBXProject "MarkBank-AccountDetails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1003751428EC1E6B0058334F /* Debug */,
+				1003751528EC1E6B0058334F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1003751628EC1E6B0058334F /* Build configuration list for PBXNativeTarget "MarkBank-AccountDetails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1003751728EC1E6B0058334F /* Debug */,
+				1003751828EC1E6B0058334F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1003751A28EC1F750058334F /* AccountModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1003751B28EC1F750058334F /* AccountModel.xcdatamodel */,
+			);
+			currentVersion = 1003751B28EC1F750058334F /* AccountModel.xcdatamodel */;
+			path = AccountModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1003750028EC1E6B0058334F /* Project object */;
+}
